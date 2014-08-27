@@ -1,4 +1,4 @@
-# Signals [![Build Status](https://secure.travis-ci.org/marceltaeumel/signals.png?branch=master)](http://travis-ci.org/marceltaeumel/signals) [![Try Now](http://img.shields.io/badge/try-now-green.svg)](http://novnc.com/?autoconnect=true&host=localhost&port=5900&password=1234&path=)
+# Signals [![Build Status](https://secure.travis-ci.org/marceltaeumel/signals.png?branch=master)](http://travis-ci.org/marceltaeumel/signals) [![Try Now](http://img.shields.io/badge/try-now-green.svg)](http://172.16.64.131:8080/hubx/signals)
 
 A simple callback is a function call that is performed when another action took place. Normally, callback can be registered to an object and will be processed by that object whenever the time is right. There are several ways to implement such callbacks. Some are more general, others only apply to a subset of possible actions in the system. This *Signals* implementation tries to be usable in all cases but adds one or another constraint to keep code that uses signals readable.
 
